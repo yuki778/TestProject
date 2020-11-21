@@ -16,5 +16,13 @@ namespace WindowsFormsApplication5
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+            ExcelController ec = new ExcelController();
+            ec.OutPutTest();
+
+        }
     }
 }
